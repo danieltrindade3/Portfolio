@@ -1,1 +1,44 @@
 @charset UTF-8;
+
+:root {
+    --fundo: #252525;
+    --cor001: #ff6f00;
+    --cor002: #0042e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--fundo);
+    color: white;
+}
+header {
+    background-color: var(--cor001);
+    padding: 10px;
+    box-shadow: 3px 3px 2px #000000e3;
+}
+header a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+header a:hover {
+    background-color: var(--cor002);
+    padding: 5px;
+    border-radius: 8px;
+}
+main {
+    margin: auto;
+    padding: 50px 80px;
+    text-align: justify;
+}
+footer a {
+    text-decoration: none;
+}
+footer img {
+    width: 40px;
+    margin-right: 10px;
+}
