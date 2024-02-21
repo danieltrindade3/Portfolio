@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+    }
+    header > nav {
+        margin: 0;
+    }
+    main {
+        margin: 5px;
+        padding: 20px;
+    }
+}
