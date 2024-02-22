@@ -27,6 +27,12 @@ header > h1 {
 header > nav {
     margin: auto 10px;
 }
+a#página-atual {
+    background-color: var(--cor002);
+    color: #d4ebff;
+    padding: 5px;
+    border-radius: 8.5px;
+}
 header a {
     color: white;
     margin-right: 10px;
@@ -35,7 +41,7 @@ header a {
 }
 header a:hover {
     background-color: var(--cor002);
-    padding: 8px;
+    padding: 6px;
     border-radius: 8.5px;
 }
 
@@ -49,6 +55,9 @@ main > h1 {
     margin: 10px auto;
 }
 
+footer nav > p {
+    font-size: 15px;
+}
 footer img {
     width: 32px;
     margin-right: 8px;

@@ -1,7 +1,10 @@
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
     header {
         flex-direction: column;
+    }
+    header > h1 {
+        margin: 10px 0;
     }
     header > nav {
         margin: 0;
