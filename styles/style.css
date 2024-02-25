@@ -28,8 +28,8 @@ header > nav {
     margin: auto 10px;
 }
 a#página-atual {
-    background-color: var(--cor002);
-    color: #d4ebff;
+    background-color: #074cfc;
+    color: #ebf5ff;
     padding: 5px;
     border-radius: 8.5px;
 }
