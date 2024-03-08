@@ -13,4 +13,7 @@
         margin: 5px;
         padding: 20px;
     }
+    h2#título-nome {
+        font-size: 1em;
+    }
 }

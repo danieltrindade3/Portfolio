@@ -4,6 +4,7 @@
     --fundo: #252525;
     --cor001: #ff6f00;
     --cor002: #0042e8;
+    --cor003: #034aff
 }
 * {
     margin: 0;
@@ -28,7 +29,7 @@ header > nav {
     margin: auto 10px;
 }
 a#página-atual {
-    background-color: #034aff;
+    background-color: var(--cor003);
     color: #ebf5ff;
     padding: 5px;
     border-radius: 8.5px;
@@ -48,13 +49,34 @@ header a:hover {
 }
 
 main {
-    margin:  auto 80px;
+    margin:  auto 75px;
     padding: 38px 50px;
     text-align: justify;
-    line-height: 28px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition-duration: 0.3s;
 }
 main > h1 {
     margin: 10px auto;
+}
+button#bt-redirecione {
+    background-color: var(--cor002);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button#bt-redirecione:hover {
+    background-color: var(--cor003);
+}
+button#bt-redirecione:active {
+    background-color: #0234b4;
+    color: #c2c2c2;
 }
 main > a {
     display: flex;
@@ -71,6 +93,7 @@ main > a:hover {
 
 footer p#text-link {
     font-size: 15px;
+    margin-bottom: 8px;
 }
 footer img {
     width: 32px;
