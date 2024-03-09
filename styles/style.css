@@ -47,22 +47,20 @@ header a:hover {
     padding: 6px;
     border-radius: 8.5px;
 }
-
 main {
-    margin:  auto 75px;
-    padding: 38px 50px;
+    margin:  auto;
+    padding: 50px 78px;
     text-align: justify;
+    justify-content: space-between;
 }
-aside {
-    display: flex;
+.container {
     flex-direction: column;
-    align-items: start;
-    transition-duration: 0.3s;
+    justify-content: space-between;
 }
 main > h1 {
     margin: 10px auto;
 }
-button#bt-redirecione {
+button {
     background-color: var(--cor002);
     color: white;
     border: none;
@@ -71,10 +69,10 @@ button#bt-redirecione {
     border-radius: 10px;
     cursor: pointer;
 }
-button#bt-redirecione:hover {
+button:hover {
     background-color: var(--cor003);
 }
-button#bt-redirecione:active {
+button:active {
     background-color: #0234b4;
     color: #c2c2c2;
 }
