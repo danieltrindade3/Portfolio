@@ -54,9 +54,16 @@ main {
     justify-content: space-between;
 }
 .container {
-    flex-direction: column;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 main > h1 {
     margin: 10px auto;
 }
