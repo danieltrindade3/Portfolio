@@ -49,19 +49,19 @@ header a:hover {
 }
 main {
     margin:  auto;
-    padding: 50px 78px;
+    padding: 50px 70px;
     text-align: justify;
     justify-content: space-between;
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 main > h1 {
