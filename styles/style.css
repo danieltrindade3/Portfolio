@@ -23,6 +23,7 @@ header {
     box-shadow: 1px 1px 5px #000000e3;
 }
 header > h1 {
+    font-size: 2.4em;
     margin: 10px 10px;
 }
 header > nav {
@@ -68,7 +69,12 @@ img.img-sobre {
 }
 
 main > h1 {
+    font-size: 2.5em;
     margin: 10px auto;
+}
+hr {
+    margin-bottom: 25px;
+    border: 2px solid;
 }
 button {
     background-color: var(--cor002);
