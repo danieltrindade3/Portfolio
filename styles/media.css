@@ -13,11 +13,12 @@
         padding: 20px;
     }
     .container {
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
     }
     .image {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     h2#título-nome {
         font-size: 1em;

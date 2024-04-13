@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
-    <link rel="shortcut icon" href="components/media/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media.css">
     <link rel="stylesheet" href="styles/font.css">
@@ -16,7 +16,7 @@
             text-align: center;
         }
         main {
-            padding: 0;
+            padding: 0 30px;
         }
     </style>
 </head>
@@ -31,7 +31,10 @@
                     <button onclick="window.location.href='screens/sobre.html'">Saiba mais de mim!</button>
                 </div>
                 <div class="image">
-                    <img src="components/media/pose-contorno.png" alt="Minha foto ">
+                    <picture>
+                        <source media="(max-width: 750px)" srcset="components/images/pose-contorno2.png">
+                        <img src="components/images/pose-contorno.png" alt="Minha foto com pose">
+                    </picture>
                 </div>
         </aside>
     </main>
