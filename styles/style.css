@@ -32,8 +32,8 @@ header > nav {
 a#página-atual {
     background-color: var(--cor003);
     color: #ebf5ff;
-    padding: 5px;
-    border-radius: 8.5px;
+    padding: 6px;
+    border-radius: 8px;
 }
 a {
     text-decoration: none;
@@ -44,9 +44,8 @@ header a {
     transition-duration: 0.3s;
 }
 header a:hover {
-    background-color: var(--cor002);
-    padding: 6px;
-    border-radius: 8.5px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 main {
     margin: auto;

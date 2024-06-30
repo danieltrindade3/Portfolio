@@ -15,6 +15,7 @@ header > h1 {
     font-family: var(--fonte-título);
 }
 header a {
+    font-family: var(--fonte-título);
     font-weight: bolder;
 }
 h2.título-nome {
