@@ -115,6 +115,24 @@ main > a {
 main > a:hover {
     text-decoration: underline;
 }
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 38px;
+    margin-bottom: 10px;
+}
+section.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.coluna img {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     margin: 0;

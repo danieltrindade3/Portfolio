@@ -1,13 +1,4 @@
 @media screen and (max-width: 750px) {
-    header {
-        flex-direction: column;
-    }
-    header > h1 {
-        margin: 10px 0;
-    }
-    header > nav {
-        margin: 0;
-    }
     main {
         margin: 5px;
         padding: 20px;
@@ -22,5 +13,25 @@
     }
     h2#título-nome {
         font-size: 1em;
+    }
+}
+@media screen and (max-width: 700px ) {
+    header {
+        flex-direction: column;
+    }
+    header > h1 {
+        margin: 10px 0;
+    }
+    header > nav {
+        margin: 0;
+    }
+
+    article {
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+    section.coluna img {
+        margin-bottom: 5px;
     }
 }
