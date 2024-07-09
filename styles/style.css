@@ -115,22 +115,25 @@ main > a {
 main > a:hover {
     text-decoration: underline;
 }
-article {
+/* article {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 38px;
+    justify-content: space-evenly;
     margin-bottom: 20px;
-}
+} */
 section.coluna {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 section.coluna img {
     margin: auto;
-    margin-bottom: 10px;
+}
+section.coluna > a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
 }
 section.coluna a:hover {
     text-decoration: underline;
