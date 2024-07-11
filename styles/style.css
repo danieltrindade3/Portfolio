@@ -30,10 +30,9 @@ header > nav {
     margin: auto 10px;
 }
 a#página-atual {
-    background-color: var(--cor003);
-    color: #ebf5ff;
-    padding: 6px;
-    border-radius: 8px;
+    text-decoration: underline;
+    text-decoration-color: var(--cor003);
+    text-decoration-thickness: 2px;
 }
 a {
     text-decoration: none;
@@ -41,11 +40,9 @@ a {
 }
 header a {
     margin-right: 10px;
-    transition-duration: 0.3s;
 }
 header a:hover {
     text-decoration: underline;
-    text-decoration-thickness: 2px;
 }
 main {
     display: flex;
