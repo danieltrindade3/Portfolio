@@ -31,7 +31,6 @@ header > nav {
 }
 a#página-atual {
     text-decoration: underline;
-    text-decoration-color: var(--cor003);
     text-decoration-thickness: 2px;
 }
 a {
