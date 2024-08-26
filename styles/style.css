@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color: var(--fundo);
@@ -52,7 +53,7 @@ main {
 main > p {
     text-align: center;
     text-indent: 30px;
-    line-height: 25px;
+    line-height: 25px; /* Espaço entre as linhas */
     margin: 20px auto;
 }
 .container {
@@ -111,16 +112,15 @@ main > a {
 main > a:hover {
     text-decoration: underline;
 }
-/* article {
+article {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 20px;
-} */
+}
 section.coluna {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 section.coluna img {
     margin: auto;
