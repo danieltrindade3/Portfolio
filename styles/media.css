@@ -1,7 +1,6 @@
 @media screen and (max-width: 750px) {
     main {
-        margin: 5px;
-        padding: 20px;
+        max-width: ;
     }
     .container {
         margin-top: 20px;
@@ -24,14 +23,5 @@
     }
     header > nav {
         margin: 0;
-    }
-
-    section.coluna {
-        flex-direction: column;
-        gap: 5px;
-        margin-bottom: 10px;
-    }
-    section.coluna img {
-        margin-bottom: 5px;
     }
 }

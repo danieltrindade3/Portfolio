@@ -48,13 +48,13 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding: 50px 100px;
+    max-width: 800px;
 }
 main > p {
-    text-align: center;
+    text-align: justify;
     text-indent: 30px;
     line-height: 25px; /* Espaço entre as linhas */
-    margin: 20px auto;
+    margin: auto;
 }
 .container {
     display: flex;
@@ -113,26 +113,19 @@ main > a:hover {
     text-decoration: underline;
 }
 article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-}
-section.coluna {
-    display: flex;
     flex-direction: column;
 }
-section.coluna img {
-    margin: auto;
-}
-section.coluna > a {
+article a {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: auto;
 }
-section.coluna a:hover {
+article a:hover {
     text-decoration: underline;
+}
+article img {
+    margin: auto;
 }
 
 footer {
